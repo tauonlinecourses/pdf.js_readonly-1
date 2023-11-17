@@ -79,7 +79,7 @@ const defaultOptions = {
      *  You also can protect PDF file source from direct access using .htaccess
      *  Or you can never reveal its original file name such as encoding it first!
      */
-    value: "compressed.tracemonkey-pldi-09",
+    value: "StoryPath",
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
@@ -2184,7 +2184,7 @@ const PDFViewerApplication = {
 exports.PDFViewerApplication = PDFViewerApplication;
 let validateFileURL;
 {
-  const HOSTED_VIEWER_ORIGINS = ["null", "http://mozilla.github.io", "https://mozilla.github.io"];
+  const HOSTED_VIEWER_ORIGINS = ["null", "http://mozilla.github.io", "https://mozilla.github.io","https://campus.gov.il"];
 
   validateFileURL = function (file) {
     if (file === undefined) {
