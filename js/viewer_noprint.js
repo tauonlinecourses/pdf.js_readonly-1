@@ -79,7 +79,7 @@ const defaultOptions = {
      *  You also can protect PDF file source from direct access using .htaccess
      *  Or you can never reveal its original file name such as encoding it first!
      */
-    value: "StoryPath",
+    value: "popicTest",
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
