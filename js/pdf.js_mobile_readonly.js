@@ -6,7 +6,7 @@
 // Read Only Preferences
 var disableRghtClck = true; // Disable Right Click,   value: true || false
 var disableCopyText = true; // Disable Copy Text,     value: true || false
-var disableOpenFile = false; // Disable Open PDF,      value: true || false
+var disableOpenFile = true; // Disable Open PDF,      value: true || false
 var disablePrintPdf = true; // Disable Print PDF,     value: true || false
 var disableDownload = true; // Disable Save PDF,      value: true || false
 var disablePrntScrn = true; // Disable Print Screen,  value: true || false (experimental)
